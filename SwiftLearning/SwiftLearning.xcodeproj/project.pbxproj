@@ -19,6 +19,8 @@
 		F3432B0527E5E257006B7DD6 /* MoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3432B0427E5E257006B7DD6 /* MoreScreen.swift */; };
 		F3432B1027E5F1F5006B7DD6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3432B0F27E5F1F5006B7DD6 /* ProfileView.swift */; };
 		F3432B1227E5F262006B7DD6 /* QuickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3432B1127E5F262006B7DD6 /* QuickView.swift */; };
+		F3D74DFD27E6308000EA4722 /* ButtonStyleExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74DFC27E6308000EA4722 /* ButtonStyleExtended.swift */; };
+		F3D74DFF27E6338400EA4722 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74DFE27E6338400EA4722 /* ColorUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		F3432B0427E5E257006B7DD6 /* MoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreScreen.swift; sourceTree = "<group>"; };
 		F3432B0F27E5F1F5006B7DD6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F3432B1127E5F262006B7DD6 /* QuickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickView.swift; sourceTree = "<group>"; };
+		F3D74DFC27E6308000EA4722 /* ButtonStyleExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleExtended.swift; sourceTree = "<group>"; };
+		F3D74DFE27E6338400EA4722 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		F3432AD327E5D2B0006B7DD6 /* SwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				F3D74DFB27E6306500EA4722 /* utils */,
 				F3432B0927E5F178006B7DD6 /* screens */,
 				F3432AD427E5D2B0006B7DD6 /* SwiftLearningApp.swift */,
 				F3432AD627E5D2B0006B7DD6 /* ContentView.swift */,
@@ -188,6 +193,15 @@
 				F3432B1127E5F262006B7DD6 /* QuickView.swift */,
 			);
 			path = struct;
+			sourceTree = "<group>";
+		};
+		F3D74DFB27E6306500EA4722 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3D74DFC27E6308000EA4722 /* ButtonStyleExtended.swift */,
+				F3D74DFE27E6338400EA4722 /* ColorUtils.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3432AD727E5D2B0006B7DD6 /* ContentView.swift in Sources */,
+				F3D74DFF27E6338400EA4722 /* ColorUtils.swift in Sources */,
 				F3432B0327E5E054006B7DD6 /* BottomNavigationBar.swift in Sources */,
 				F3432B1227E5F262006B7DD6 /* QuickView.swift in Sources */,
 				F3432B0527E5E257006B7DD6 /* MoreScreen.swift in Sources */,
@@ -328,6 +343,7 @@
 				F3432AD527E5D2B0006B7DD6 /* SwiftLearningApp.swift in Sources */,
 				F3432B1027E5F1F5006B7DD6 /* ProfileView.swift in Sources */,
 				F3432AFD27E5D5DE006B7DD6 /* HomeScreen.swift in Sources */,
+				F3D74DFD27E6308000EA4722 /* ButtonStyleExtended.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
