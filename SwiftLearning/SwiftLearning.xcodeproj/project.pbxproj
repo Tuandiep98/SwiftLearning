@@ -13,6 +13,10 @@
 		F3432ADC27E5D2B1006B7DD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3432ADB27E5D2B1006B7DD6 /* Preview Assets.xcassets */; };
 		F3432AE627E5D2B1006B7DD6 /* SwiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3432AE527E5D2B1006B7DD6 /* SwiftLearningTests.swift */; };
 		F3432AF027E5D2B1006B7DD6 /* SwiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3432AEF27E5D2B1006B7DD6 /* SwiftLearningUITests.swift */; };
+		F3432AFD27E5D5DE006B7DD6 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3432AFC27E5D5DE006B7DD6 /* HomeScreen.swift */; };
+		F3432B0127E5DFFC006B7DD6 /* AlbumScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3432B0027E5DFFC006B7DD6 /* AlbumScreen.swift */; };
+		F3432B0327E5E054006B7DD6 /* BottomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3432B0227E5E054006B7DD6 /* BottomNavigationBar.swift */; };
+		F3432B0527E5E257006B7DD6 /* MoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3432B0427E5E257006B7DD6 /* MoreScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		F3432AE527E5D2B1006B7DD6 /* SwiftLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearningTests.swift; sourceTree = "<group>"; };
 		F3432AEB27E5D2B1006B7DD6 /* SwiftLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3432AEF27E5D2B1006B7DD6 /* SwiftLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearningUITests.swift; sourceTree = "<group>"; };
+		F3432AFC27E5D5DE006B7DD6 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		F3432B0027E5DFFC006B7DD6 /* AlbumScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumScreen.swift; sourceTree = "<group>"; };
+		F3432B0227E5E054006B7DD6 /* BottomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationBar.swift; sourceTree = "<group>"; };
+		F3432B0427E5E257006B7DD6 /* MoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 				F3432AD627E5D2B0006B7DD6 /* ContentView.swift */,
 				F3432AD827E5D2B1006B7DD6 /* Assets.xcassets */,
 				F3432ADA27E5D2B1006B7DD6 /* Preview Content */,
+				F3432AFC27E5D5DE006B7DD6 /* HomeScreen.swift */,
+				F3432B0027E5DFFC006B7DD6 /* AlbumScreen.swift */,
+				F3432B0227E5E054006B7DD6 /* BottomNavigationBar.swift */,
+				F3432B0427E5E257006B7DD6 /* MoreScreen.swift */,
 			);
 			path = SwiftLearning;
 			sourceTree = "<group>";
@@ -255,7 +267,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3432AD727E5D2B0006B7DD6 /* ContentView.swift in Sources */,
+				F3432B0327E5E054006B7DD6 /* BottomNavigationBar.swift in Sources */,
+				F3432B0527E5E257006B7DD6 /* MoreScreen.swift in Sources */,
+				F3432B0127E5DFFC006B7DD6 /* AlbumScreen.swift in Sources */,
 				F3432AD527E5D2B0006B7DD6 /* SwiftLearningApp.swift in Sources */,
+				F3432AFD27E5D5DE006B7DD6 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
