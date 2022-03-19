@@ -22,18 +22,3 @@ struct HomeScreen_Previews: PreviewProvider {
         HomeScreen()
     }
 }
-
-struct FavouritesHorizonWidget: View {
-    var body: some View {
-        VStack(alignment: .leading, spacing: 5) {
-                Text("People you may know").padding()
-            ScrollView(.horizontal){
-                HStack(spacing: 10){
-                    ForEach(0..<10){
-                        index in ProfileView()
-                    }
-                }
-            }
-        }
-    }
-}

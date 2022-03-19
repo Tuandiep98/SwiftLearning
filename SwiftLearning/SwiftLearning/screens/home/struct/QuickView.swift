@@ -21,13 +21,14 @@ struct QuickView_Previews: PreviewProvider {
 
 struct HorizonalItems: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 5){
-            Text("Quick view").font(.subheadline).padding()
-            ScrollView{
-                VStack{
-                    ForEach(0..<10){
-                        index in QuickItem()
-                    }
+        VStack(alignment: .leading){
+            HStack{
+                Text("Quick view").font(.subheadline).padding()
+                Image(systemName: "chevron.forward")
+            }
+            ScrollView(.vertical) {
+                ForEach(0..<10){
+                    index in QuickItem()
                 }
             }
         }
@@ -40,8 +41,8 @@ struct QuickItem: View {
             Image("no-image")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 100, alignment: .center)
+                .frame(alignment: .center)
             Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry.").font(.subheadline)
-        }.padding()
+        }.frame(height: 100).padding()
     }
 }
